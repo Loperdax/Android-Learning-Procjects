@@ -21,6 +21,7 @@ class RetrofitActivity : AppCompatActivity() {
         MovieAdapter()
     }
 
+    // creating api client
     private val api by lazy {
         ApiClient().getClient().create(ApiService::class.java)
     }
@@ -39,10 +40,15 @@ class RetrofitActivity : AppCompatActivity() {
             call.enqueue(object :  Callback<ResponseMoviesList> {
                 override fun onResponse(p0: Call<ResponseMoviesList>, response: Response<ResponseMoviesList>) {
                     loadingBar.visibility = View.GONE
+                    recycleView.visibility = View.VISIBLE
+
+                    // checking response
                     if (response.isSuccessful){
                         response.body()?.let { itBody ->
                             itBody.data?.let { itData ->
                                 if (itData.isNotEmpty()) {
+
+                                    // updating list
                                     adapter.differ.submitList(itData)
                                     setupAdapter()
                                 }
