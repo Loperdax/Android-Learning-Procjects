@@ -3,15 +3,15 @@ package com.app.learn.retrofit
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.app.learn.databinding.ActivityRetrofitBinding
-import com.google.android.material.snackbar.Snackbar
+import com.app.learn.retrofit.responses.ResponseMoviesList
+import com.app.learn.retrofit.server.ApiClient
+import com.app.learn.retrofit.server.ApiService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.util.concurrent.TimeUnit
 
 class RetrofitActivity : AppCompatActivity() {
 

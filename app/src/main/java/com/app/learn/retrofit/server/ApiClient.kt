@@ -1,4 +1,4 @@
-package com.app.learn.retrofit
+package com.app.learn.retrofit.server
 
 import com.app.learn.Constants.BASE_URL
 import com.app.learn.Constants.NETWORK_TIMEOUT
