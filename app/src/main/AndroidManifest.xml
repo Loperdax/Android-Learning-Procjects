@@ -36,6 +36,9 @@
         <activity android:name=".roomDb.RoomActivity"
             android:exported="false"/>
 
+        <activity android:name=".retrofit.RetrofitActivity"
+            android:exported="false"/>
+
     </application>
 
 </manifest>
