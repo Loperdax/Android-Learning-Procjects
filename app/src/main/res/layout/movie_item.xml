@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
@@ -38,7 +39,10 @@
                 android:fontFamily="sans-serif-light"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                android:contentDescription="@string/imagemovie"/>
+                android:contentDescription="@string/imagemovie"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/movieImg"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
