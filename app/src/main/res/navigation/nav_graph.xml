@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <!-- android:label is the name showing as name in action bar -->
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.app.learn.navigation.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+
+    </fragment>
+
+    <!-- we should add argument in receiver fragment -->
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.app.learn.navigation.fragments.DetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="data"
+            app:argType="string"
+            android:defaultValue="Empty Data" />
+    </fragment>
+
+</navigation>

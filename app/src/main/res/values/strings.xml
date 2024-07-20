@@ -9,4 +9,11 @@
     <string name="save_button">SaveButton</string>
     <string name="imagemovie">ImageMovie</string>
     <string name="retrofit">Retrofit</string>
+    <string name="navigation_components">NavigationComponents</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go_to_home_fragment">Go to Home Fragment</string>
+    <string name="write_text_here">Write text here</string>
+    <string name="send">Send</string>
+    <string name="title_activity_maissssn">MaissssnActivity</string>
 </resources>
