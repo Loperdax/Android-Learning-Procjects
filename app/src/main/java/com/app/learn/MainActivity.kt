@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.app.learn.databinding.ActivityMainBinding
+import com.app.learn.navigation.NavigationActivity
 import com.app.learn.recycle.UserListActivity
 import com.app.learn.retrofit.RetrofitActivity
 import com.app.learn.roomDb.RoomActivity
@@ -28,6 +29,10 @@ class MainActivity : AppCompatActivity() {
             }
             Retrofit.setOnClickListener{
                 val intent = Intent(this@MainActivity , RetrofitActivity::class.java)
+                startActivity(intent)
+            }
+            NavigationComponents.setOnClickListener{
+                val intent = Intent(this@MainActivity , NavigationActivity::class.java)
                 startActivity(intent)
             }
         }
