@@ -9,7 +9,8 @@ Welcome to the **Advanced Android Learning Repository**! This project is part of
 - **RecyclerView**: Efficiently displays a large set of data in a scrollable list.
 - **Room Database**: Simplifies data persistence with SQLite database.
 - **Retrofit**: Eases the integration of RESTful APIs.
-- **Navigation**: Manages in-app navigation seamlessly (currently learning).
+- **Navigation**: Manages in-app navigation seamlessly + DeepLink.
+- **Coroutines**: Streamlines asynchronous tasks with easy, non-blocking code.
 
 ## Lessons
 
@@ -18,7 +19,21 @@ Here are the lessons covered so far, with their completion status:
 - **RecyclerView** ✔
 - **Room Database** ✔
 - **Retrofit** ✔
-- **Navigation** 🔃
+- **Navigation** ✔
+- **Coroutines**
+- **Hilt**
+- **ViewModel**
+- **LiveData**
+- **DataStore**
+- **Koin**
+- **Coroutines**
+- **Paging3**
+- **Flow**
+- **RxJava**
+- **MVP**
+- **MVVM**
+- **MVI**
+
 
 ## Installation
 
