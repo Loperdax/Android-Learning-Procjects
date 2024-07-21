@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/icons8_search_50"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/icons8_user_50"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/detailFragment2"
+        android:icon="@drawable/icons8_detail_50"
+        android:title="@string/detail" />
+
+    <item
+        android:id="@+id/addFragment"
+        android:icon="@drawable/icons8_add_50"
+        android:title="@string/add" />
+
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/icons8_heart_50"
+        android:title="@string/favorite" />
+
+
+</menu>

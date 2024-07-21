@@ -9,9 +9,9 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.app.learn.navigation.fragments.HomeFragment"
+        android:name="com.app.learn.navigation.project1.fragments.HomeFragment"
         android:label="Home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
@@ -21,13 +21,15 @@
     <!-- we should add argument in receiver fragment -->
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.app.learn.navigation.fragments.DetailFragment"
+        android:name="com.app.learn.navigation.project1.fragments.DetailFragment"
         android:label="Detail"
         tools:layout="@layout/fragment_detail">
         <argument
             android:name="data"
-            app:argType="string"
-            android:defaultValue="Empty Data" />
+            app:argType="string" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="testApp.com/{data}" />
     </fragment>
 
 </navigation>

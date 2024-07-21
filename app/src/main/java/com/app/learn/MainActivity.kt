@@ -4,7 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.app.learn.databinding.ActivityMainBinding
-import com.app.learn.navigation.NavigationActivity
+import com.app.learn.navigation.project1.NavigationActivity
+import com.app.learn.navigation.project2.NavigationActivity2
 import com.app.learn.recycle.UserListActivity
 import com.app.learn.retrofit.RetrofitActivity
 import com.app.learn.roomDb.RoomActivity
@@ -33,6 +34,10 @@ class MainActivity : AppCompatActivity() {
             }
             NavigationComponents.setOnClickListener{
                 val intent = Intent(this@MainActivity , NavigationActivity::class.java)
+                startActivity(intent)
+            }
+            NavigationComponents2.setOnClickListener{
+                val intent = Intent(this@MainActivity , NavigationActivity2::class.java)
                 startActivity(intent)
             }
         }

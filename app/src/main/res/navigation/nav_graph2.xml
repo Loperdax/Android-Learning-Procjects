@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/searchFragment">
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.app.learn.navigation.project2.fragments.SearchFragment"
+        android:label="fragment_search2"
+        tools:layout="@layout/fragment_search2" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.app.learn.navigation.project2.fragments.ProfileFragment"
+        android:label="fragment_profile2"
+        tools:layout="@layout/fragment_profile2" />
+    <fragment
+        android:id="@+id/detailFragment2"
+        android:name="com.app.learn.navigation.project2.fragments.DetailFragment"
+        android:label="fragment_detail2"
+        tools:layout="@layout/fragment_detail2" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.app.learn.navigation.project2.fragments.AddFragment"
+        android:label="fragment_add2"
+        tools:layout="@layout/fragment_add2" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.app.learn.navigation.project2.fragments.FavoriteFragment"
+        android:label="fragment_favorite2"
+        tools:layout="@layout/fragment_favorite2" />
+</navigation>
