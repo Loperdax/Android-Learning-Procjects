@@ -11,6 +11,7 @@ Welcome to the **Advanced Android Learning Repository**! This project is part of
 - **Retrofit**: Eases the integration of RESTful APIs.
 - **Navigation**: Manages in-app navigation seamlessly + DeepLink.
 - **Coroutines**: Streamlines asynchronous tasks with easy, non-blocking code.
+- **Hilt**: Google's dependency injection library for Android.
 
 ## Lessons
 
@@ -20,8 +21,8 @@ Here are the lessons covered so far, with their completion status:
 - **Room Database** ✔
 - **Retrofit** ✔
 - **Navigation** ✔
-- **Coroutines**
-- **Hilt**
+- **Coroutines** ✔
+- **Hilt** 🔃
 - **ViewModel**
 - **LiveData**
 - **DataStore**
