@@ -23,4 +23,13 @@
     <string name="detail">Detail</string>
     <string name="add">Add</string>
     <string name="main">Main</string>
+    <string name="coroutines">Coroutines</string>
+    <string name="start_tasks">Start Tasks</string>
+    <string name="hint_text1">Two coroutines will be started in IO by button click \n with the first task completing after a 2-second delay and the second task finishing after a 4-second delay.</string>
+    <string name="start_suspend">Start Suspend Function</string>
+    <string name="start_runBlocking">Block Main(ui) Thread</string>
+    <string name="hint_text2">if you click on this button it running a suspend func for 4 sec.\nyou can not use ui when function is running!</string>
+    <string name="start_job">Start Job</string>
+    <string name="start_job2">Start job but wait for result</string>
+    <string name="hintText3">If you click on the \"First\" button, this loop will run continuously without stopping, even if you exit this activity. \n But if you click on the \"Second\" button, this loop will run within the scope of this activity\'s lifecycle, meaning it will stop when you leave this activity.</string>
 </resources>

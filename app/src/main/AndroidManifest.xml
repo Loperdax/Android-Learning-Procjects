@@ -49,6 +49,8 @@
         <activity
             android:name=".navigation.project2.NavigationActivity2"
             android:exported="false" />
+        <activity android:name=".coroutines.CoroutinesActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
