@@ -32,4 +32,6 @@
     <string name="start_job">Start Job</string>
     <string name="start_job2">Start job but wait for result</string>
     <string name="hintText3">If you click on the \"First\" button, this loop will run continuously without stopping, even if you exit this activity. \n But if you click on the \"Second\" button, this loop will run within the scope of this activity\'s lifecycle, meaning it will stop when you leave this activity.</string>
+    <string name="hilt">Hilt</string>
+    <string name="enter_text">Enter You Note</string>
 </resources>

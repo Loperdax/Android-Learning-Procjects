@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     id("kotlin-kapt")
     id("androidx.navigation.safeargs")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -65,7 +66,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    val lifecycleVersion = "2.8.3"
+    val lifecycleVersion = "2.8.4"
     val roomVersion = "2.6.1"
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -93,7 +94,7 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
     // Image Loading
-    implementation("io.coil-kt:coil:2.6.0")
+    implementation("io.coil-kt:coil:2.7.0")
 
     // Navigation
     implementation ("androidx.navigation:navigation-fragment-ktx:2.7.7")
@@ -106,5 +107,12 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
 
+    // Hilt
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
 
+}
+
+kapt {
+    correctErrorTypes = true
 }

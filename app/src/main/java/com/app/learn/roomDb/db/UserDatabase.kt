@@ -6,7 +6,7 @@ import com.app.learn.roomDb.db.UserDao
 import com.app.learn.roomDb.db.UserEntity
 
 
-@Database(entities = [UserEntity::class], version = 1)
+@Database(entities = [UserEntity::class], version = 1 , exportSchema = false)
 abstract class UserDatabase  : RoomDatabase() {
     abstract fun dao() : UserDao
 }
