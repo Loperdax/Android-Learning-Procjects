@@ -7,11 +7,13 @@ import com.app.learn.coroutines.CoroutinesActivity
 import com.app.learn.databinding.ActivityMainBinding
 import com.app.learn.hilt.retrofit.HiltRetrofitActivity
 import com.app.learn.hilt.room.HiltRoomActivity
+import com.app.learn.livedata.ActivityLiveData
 import com.app.learn.navigation.project1.NavigationActivity
 import com.app.learn.navigation.project2.NavigationActivity2
 import com.app.learn.recycle.UserListActivity
 import com.app.learn.retrofit.RetrofitActivity
 import com.app.learn.roomDb.RoomActivity
+import com.app.learn.viewmodel.ViewModelActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -53,6 +55,14 @@ class MainActivity : AppCompatActivity() {
             }
             Hilt2.setOnClickListener {
                 val intent = Intent(this@MainActivity, HiltRetrofitActivity::class.java)
+                startActivity(intent)
+            }
+            Viewmodel.setOnClickListener {
+                val intent = Intent(this@MainActivity, ViewModelActivity::class.java)
+                startActivity(intent)
+            }
+            LiveData.setOnClickListener {
+                val intent = Intent(this@MainActivity, ActivityLiveData::class.java)
                 startActivity(intent)
             }
         }

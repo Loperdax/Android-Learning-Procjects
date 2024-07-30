@@ -5,6 +5,7 @@
 Welcome to the **Advanced Android Learning Repository**! 
 This project is part of my journey to master advanced Android development concepts. The application showcases various lessons, each accessible through dedicated buttons on the main screen. As I progress through my course, I'll keep adding new lessons here.
 
+You can refer to [NotesPage](https://github.com/Loperdax/Android-Learning-Procjects/blob/master/Notes.md) for more access to the notes
 
 ## Features
 
@@ -15,6 +16,7 @@ This project is part of my journey to master advanced Android development concep
 - **Coroutines**: Streamlines asynchronous tasks with easy, non-blocking code.
 - **Hilt**: Google's dependency injection library for Android.
 - **ViewModel**: Manages UI-related data to survive configuration changes.
+- **LiveData**: A lifecycle-aware, observable data holder class that can be used to hold and observe changing data.
 
 ## Lessons
 
@@ -26,8 +28,8 @@ Here are the lessons covered so far, with their completion status:
 - **Navigation** ✔
 - **Coroutines** ✔
 - **Hilt** ✔
-- **ViewModel** 🔃
-- **LiveData**
+- **ViewModel** ✔
+- **LiveData** 🔃
 - **DataStore**
 - **Koin**
 - **Coroutines**

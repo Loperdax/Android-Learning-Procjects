@@ -35,4 +35,8 @@
     <string name="hilt">Hilt + RoomDB</string>
     <string name="hilt2">Hilt + Retrofit</string>
     <string name="enter_text">Enter You Note</string>
+    <string name="viewmodel">ViewModel</string>
+    <string name="vmtxt1">0</string>
+    <string name="livedata">LiveData</string>
+
 </resources>

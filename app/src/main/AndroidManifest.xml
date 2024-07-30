@@ -56,6 +56,10 @@
             android:exported="false"/>
         <activity android:name=".hilt.retrofit.HiltRetrofitActivity"
             android:exported="false"/>
+        <activity android:name=".viewmodel.ViewModelActivity"
+            android:exported="false"/>
+        <activity android:name=".livedata.ActivityLiveData"
+            android:exported="false"/>
     </application>
 
 </manifest>
