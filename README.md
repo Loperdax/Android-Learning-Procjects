@@ -2,7 +2,9 @@
 
 # Advanced Android Learning Repository
 
-Welcome to the **Advanced Android Learning Repository**! This project is part of my journey to master advanced Android development concepts. The application showcases various lessons, each accessible through dedicated buttons on the main screen. As I progress through my course, I'll keep adding new lessons here.
+Welcome to the **Advanced Android Learning Repository**! 
+This project is part of my journey to master advanced Android development concepts. The application showcases various lessons, each accessible through dedicated buttons on the main screen. As I progress through my course, I'll keep adding new lessons here.
+
 
 ## Features
 
@@ -12,6 +14,7 @@ Welcome to the **Advanced Android Learning Repository**! This project is part of
 - **Navigation**: Manages in-app navigation seamlessly + DeepLink.
 - **Coroutines**: Streamlines asynchronous tasks with easy, non-blocking code.
 - **Hilt**: Google's dependency injection library for Android.
+- **ViewModel**: Manages UI-related data to survive configuration changes.
 
 ## Lessons
 
@@ -22,8 +25,8 @@ Here are the lessons covered so far, with their completion status:
 - **Retrofit** ✔
 - **Navigation** ✔
 - **Coroutines** ✔
-- **Hilt** 🔃
-- **ViewModel**
+- **Hilt** ✔
+- **ViewModel** 🔃
 - **LiveData**
 - **DataStore**
 - **Koin**
