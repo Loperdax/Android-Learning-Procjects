@@ -39,10 +39,9 @@
                 android:fontFamily="sans-serif-light"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                android:contentDescription="@string/imagemovie"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/movieImg"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="@id/movieImg"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

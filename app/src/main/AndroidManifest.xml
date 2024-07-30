@@ -54,6 +54,8 @@
             android:exported="false"/>
         <activity android:name=".hilt.room.HiltRoomActivity"
             android:exported="false"/>
+        <activity android:name=".hilt.retrofit.HiltRetrofitActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

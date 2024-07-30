@@ -8,4 +8,6 @@ object Constants {
     const val NETWORK_TIMEOUT = 60L
     const val NOTE_DATABASE = "note_database"
     const val NOTE_TABLE = "note_table"
+    const val NAMED_HEADER = "header"
+    const val NAMED_BODY = "body"
 }

@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.app.learn.coroutines.CoroutinesActivity
 import com.app.learn.databinding.ActivityMainBinding
+import com.app.learn.hilt.retrofit.HiltRetrofitActivity
 import com.app.learn.hilt.room.HiltRoomActivity
 import com.app.learn.navigation.project1.NavigationActivity
 import com.app.learn.navigation.project2.NavigationActivity2
@@ -48,6 +49,10 @@ class MainActivity : AppCompatActivity() {
             }
             Hilt.setOnClickListener {
                 val intent = Intent(this@MainActivity, HiltRoomActivity::class.java)
+                startActivity(intent)
+            }
+            Hilt2.setOnClickListener {
+                val intent = Intent(this@MainActivity, HiltRetrofitActivity::class.java)
                 startActivity(intent)
             }
         }
