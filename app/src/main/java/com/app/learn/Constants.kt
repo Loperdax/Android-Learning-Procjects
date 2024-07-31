@@ -10,4 +10,6 @@ object Constants {
     const val NOTE_TABLE = "note_table"
     const val NAMED_HEADER = "header"
     const val NAMED_BODY = "body"
+    const val NOTE_DATABASE2 = "note_database"
+    const val NOTE_TABLE2 = "note_table"
 }

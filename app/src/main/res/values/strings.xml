@@ -38,5 +38,10 @@
     <string name="viewmodel">ViewModel</string>
     <string name="vmtxt1">0</string>
     <string name="livedata">LiveData</string>
+    <string name="set_value">Set Value</string>
+    <string name="image">Image</string>
+    <string name="add_button">Add Button\n</string>
+    <string name="title">Title\n</string>
+    <string name="description">Description</string>
 
 </resources>

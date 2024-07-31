@@ -17,6 +17,7 @@ You can refer to [NotesPage](https://github.com/Loperdax/Android-Learning-Procje
 - **Hilt**: Google's dependency injection library for Android.
 - **ViewModel**: Manages UI-related data to survive configuration changes.
 - **LiveData**: A lifecycle-aware, observable data holder class that can be used to hold and observe changing data.
+- **DataStore**: A modern data storage solution for Android used for structured data with protocol buffers, async and safe for UI threads.
 
 ## Lessons
 
@@ -29,8 +30,8 @@ Here are the lessons covered so far, with their completion status:
 - **Coroutines** ✔
 - **Hilt** ✔
 - **ViewModel** ✔
-- **LiveData** 🔃
-- **DataStore**
+- **LiveData** ✔
+- **DataStore** 🔃
 - **Koin**
 - **Coroutines**
 - **Paging3**
