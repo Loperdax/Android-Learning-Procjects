@@ -106,5 +106,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Viewmodel" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/DataStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/datastore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LiveData" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

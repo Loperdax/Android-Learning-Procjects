@@ -31,7 +31,7 @@ Here are the lessons covered so far, with their completion status:
 - **Hilt** ✔
 - **ViewModel** ✔
 - **LiveData** ✔
-- **DataStore** 🔃
+- **DataStore** ✔
 - **Koin**
 - **Coroutines**
 - **Paging3**

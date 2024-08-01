@@ -63,6 +63,8 @@
             android:exported="false"/>
         <activity android:name=".livedata.ActivityAddNote"
             android:exported="false"/>
+        <activity android:name=".datastore.ActivityDataStore"
+            android:exported="false"/>
     </application>
 
 </manifest>

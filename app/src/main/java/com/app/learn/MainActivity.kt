@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.app.learn.coroutines.CoroutinesActivity
 import com.app.learn.databinding.ActivityMainBinding
+import com.app.learn.datastore.ActivityDataStore
 import com.app.learn.hilt.retrofit.HiltRetrofitActivity
 import com.app.learn.hilt.room.HiltRoomActivity
 import com.app.learn.livedata.ActivityLiveData
@@ -63,6 +64,10 @@ class MainActivity : AppCompatActivity() {
             }
             LiveData.setOnClickListener {
                 val intent = Intent(this@MainActivity, ActivityLiveData::class.java)
+                startActivity(intent)
+            }
+            DataStore.setOnClickListener {
+                val intent = Intent(this@MainActivity, ActivityDataStore::class.java)
                 startActivity(intent)
             }
         }
