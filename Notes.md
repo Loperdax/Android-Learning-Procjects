@@ -71,6 +71,7 @@ Android Jetpack's Navigation component helps you implement navigation, from simp
 3. Set Up Navigation Host in Layout : [See Example](https://github.com/Loperdax/Android-Learning-Procjects/blob/master/app/src/main/res/layout/activity_navigation.xml#L18)
 4. Implement Navigation in Activity or Fragment : [See Example](https://github.com/Loperdax/Android-Learning-Procjects/blob/master/app/src/main/java/com/app/learn/navigation/project1/fragments/HomeFragment.kt#L25)
 5. Also Can Use BottomNav : [See Example](https://github.com/Loperdax/Android-Learning-Procjects/tree/master/app/src/main/java/com/app/learn/navigation/project2)
+6. Disable bottom nav in Some Screens : `soon` 
 
 [back to top🔼](#top)
 
